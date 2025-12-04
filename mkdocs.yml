@@ -1,0 +1,28 @@
+site_name: RC Receiver Documentation
+site_description: Documentation for the Arduino-based RC Receiver
+site_author: Prabhagaran
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Overview: overview.md
+  - Hardware:
+      - Wiring: hardware/wiring.md
+      - Components: hardware/components.md
+      - PCB: hardware/pcb.md
+  - Firmware:
+      - Architecture: firmware/architecture.md
+      - Code: firmware/receiver-code.md
+      - Failsafe: firmware/failsafe.md
+  - Testing:
+      - Servo Output: testing/servo-output.md
+      - Binding Test: testing/binding-test.md
+  - Development:
+      - TODO: development/todo.md
+      - Changelog: development/changelog.md
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
